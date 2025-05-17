@@ -15,7 +15,7 @@
 # Dockerfile used to create "horus/npmaudit" image
 # https://hub.docker.com/r/horuszup/npmaudit/
 
-FROM node:alpine
+FROM node:23.11.1-alpine3.21
 
 RUN apk update && apk upgrade \
 	&& apk add --no-cache alpine-sdk bash openssh-client \
