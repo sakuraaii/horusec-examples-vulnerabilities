@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM mongo:4.0.3
+FROM mongo:4.4.30
 
 ADD deployments/mongo-init.js /docker-entrypoint-initdb.d/
